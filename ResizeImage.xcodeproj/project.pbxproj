@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A904EA5C14281F150004CDA1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A904EA5B14281F150004CDA1 /* Cocoa.framework */; };
+		A904EA5E14281F150004CDA1 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A904EA5D14281F150004CDA1 /* MacRuby.framework */; };
+		A904EA6714281F150004CDA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A904EA6514281F150004CDA1 /* InfoPlist.strings */; };
+		A904EA6914281F150004CDA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A904EA6814281F150004CDA1 /* main.m */; };
+		A904EA6E14281F150004CDA1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A904EA6C14281F150004CDA1 /* MainMenu.xib */; };
+		A904EA7114281F150004CDA1 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = A904EA7014281F150004CDA1 /* rb_main.rb */; };
+		A904EA7314281F150004CDA1 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = A904EA7214281F150004CDA1 /* AppDelegate.rb */; };
+		A94B679C14286C4B0084DE84 /* ResizeImage.icns in Resources */ = {isa = PBXBuildFile; fileRef = A94B679B14286C4B0084DE84 /* ResizeImage.icns */; };
+		A99A00C814282D060051200D /* Image.rb in Resources */ = {isa = PBXBuildFile; fileRef = A99A00C714282D060051200D /* Image.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A904EA6014281F150004CDA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A904EA4E14281F150004CDA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A904EA5614281F150004CDA1;
+			remoteInfo = ResizeImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A904EA5714281F150004CDA1 /* ResizeImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizeImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A904EA5B14281F150004CDA1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A904EA5D14281F150004CDA1 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		A904EA6414281F150004CDA1 /* ResizeImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResizeImage-Info.plist"; sourceTree = "<group>"; };
+		A904EA6614281F150004CDA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A904EA6814281F150004CDA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A904EA6A14281F150004CDA1 /* ResizeImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ResizeImage-Prefix.pch"; sourceTree = "<group>"; };
+		A904EA6D14281F150004CDA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A904EA7014281F150004CDA1 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		A904EA7214281F150004CDA1 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		A94B679B14286C4B0084DE84 /* ResizeImage.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ResizeImage.icns; sourceTree = "<group>"; };
+		A99A00C714282D060051200D /* Image.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Image.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A904EA5414281F150004CDA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A904EA5C14281F150004CDA1 /* Cocoa.framework in Frameworks */,
+				A904EA5E14281F150004CDA1 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A904EA4C14281F150004CDA1 = {
+			isa = PBXGroup;
+			children = (
+				A904EA6214281F150004CDA1 /* ResizeImage */,
+				A904EA5A14281F150004CDA1 /* Frameworks */,
+				A904EA5814281F150004CDA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A904EA5814281F150004CDA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A904EA5714281F150004CDA1 /* ResizeImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A904EA5A14281F150004CDA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A904EA5B14281F150004CDA1 /* Cocoa.framework */,
+				A904EA5D14281F150004CDA1 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A904EA6214281F150004CDA1 /* ResizeImage */ = {
+			isa = PBXGroup;
+			children = (
+				A99A00C714282D060051200D /* Image.rb */,
+				A904EA7214281F150004CDA1 /* AppDelegate.rb */,
+				A904EA6B14281F150004CDA1 /* Resources */,
+				A904EA6F14281F150004CDA1 /* Other Sources */,
+				A904EA6314281F150004CDA1 /* Supporting Files */,
+			);
+			path = ResizeImage;
+			sourceTree = "<group>";
+		};
+		A904EA6314281F150004CDA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A904EA6414281F150004CDA1 /* ResizeImage-Info.plist */,
+				A904EA6514281F150004CDA1 /* InfoPlist.strings */,
+				A904EA6814281F150004CDA1 /* main.m */,
+				A904EA6A14281F150004CDA1 /* ResizeImage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A904EA6B14281F150004CDA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A94B679B14286C4B0084DE84 /* ResizeImage.icns */,
+				A904EA6C14281F150004CDA1 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A904EA6F14281F150004CDA1 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A904EA7014281F150004CDA1 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A904EA5F14281F150004CDA1 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = A904EA7914281F150004CDA1 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				A904EA6114281F150004CDA1 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		A904EA5614281F150004CDA1 /* ResizeImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A904EA7614281F150004CDA1 /* Build configuration list for PBXNativeTarget "ResizeImage" */;
+			buildPhases = (
+				A904EA5314281F150004CDA1 /* Sources */,
+				A904EA5414281F150004CDA1 /* Frameworks */,
+				A904EA5514281F150004CDA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResizeImage;
+			productName = ResizeImage;
+			productReference = A904EA5714281F150004CDA1 /* ResizeImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A904EA4E14281F150004CDA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A904EA5114281F150004CDA1 /* Build configuration list for PBXProject "ResizeImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A904EA4C14281F150004CDA1;
+			productRefGroup = A904EA5814281F150004CDA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A904EA5614281F150004CDA1 /* ResizeImage */,
+				A904EA5F14281F150004CDA1 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A904EA5514281F150004CDA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A904EA6714281F150004CDA1 /* InfoPlist.strings in Resources */,
+				A904EA6E14281F150004CDA1 /* MainMenu.xib in Resources */,
+				A904EA7114281F150004CDA1 /* rb_main.rb in Resources */,
+				A904EA7314281F150004CDA1 /* AppDelegate.rb in Resources */,
+				A99A00C814282D060051200D /* Image.rb in Resources */,
+				A94B679C14286C4B0084DE84 /* ResizeImage.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A904EA5314281F150004CDA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A904EA6914281F150004CDA1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A904EA6114281F150004CDA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A904EA5614281F150004CDA1 /* ResizeImage */;
+			targetProxy = A904EA6014281F150004CDA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A904EA6514281F150004CDA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A904EA6614281F150004CDA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A904EA6C14281F150004CDA1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A904EA6D14281F150004CDA1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A904EA7414281F150004CDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		A904EA7514281F150004CDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+		A904EA7714281F150004CDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizeImage/ResizeImage-Prefix.pch";
+				INFOPLIST_FILE = "ResizeImage/ResizeImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A904EA7814281F150004CDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizeImage/ResizeImage-Prefix.pch";
+				INFOPLIST_FILE = "ResizeImage/ResizeImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A904EA7A14281F150004CDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A904EA7B14281F150004CDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A904EA5114281F150004CDA1 /* Build configuration list for PBXProject "ResizeImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A904EA7414281F150004CDA1 /* Debug */,
+				A904EA7514281F150004CDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A904EA7614281F150004CDA1 /* Build configuration list for PBXNativeTarget "ResizeImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A904EA7714281F150004CDA1 /* Debug */,
+				A904EA7814281F150004CDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A904EA7914281F150004CDA1 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A904EA7A14281F150004CDA1 /* Debug */,
+				A904EA7B14281F150004CDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A904EA4E14281F150004CDA1 /* Project object */;
+}
