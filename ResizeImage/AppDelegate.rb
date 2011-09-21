@@ -135,6 +135,7 @@ class AppDelegate
 
       image.resize(width, height)
       image.save("#{output_dir}/#{item['filename']}")
+      GC.start
     end
   end
 
